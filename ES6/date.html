@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock</title>
+  </head>
+  <body>
+    Current Date and Time:
+    <h1><spam id="txt"></spam></h1>
+  </body>
+</html>
+
+<script>
+  window.onload = function () {
+    getTime();
+  };
+
+  function getTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var sec = today.getSeconds();
+
+    m = checkTime(m);
+    sec = checkTime(sec);
+    document.getElementById("txt").innerHTML = h + ":" + m + ":" + sec;
+
+    setTimeout(function () {
+      getTime();
+    }, 1000);
+  }
+
+  function checkTime(i) {
+    if (i < 10) {
+      i = "0" + i;
+    }
+    return i;
+  }
+</script>
