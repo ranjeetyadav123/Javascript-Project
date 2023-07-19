@@ -1,0 +1,97 @@
+
+*{
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pxfuel.com%2Fen%2Fdesktop-wallpaper-ipgic&psig=AOvVaw09G5B0EJsLdLQdYkgRZ-mb&ust=1689847732845000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCIjUlObDmoADFQAAAAAdAAAAABAI");
+  background-repeat: no-repeat;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+
+  margin: 0 auto;
+
+  border: 1px solid black;
+}
+
+th,
+td {
+  border: 1px black;
+  padding: 4px;
+  text-align: center;
+}
+
+th {
+  background-color: #574ce9;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.team-logo {
+  height: 7%;
+  width: 7%;
+}
+
+.team-name {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.nav {
+  background-color: rgb(4, 23, 131);
+  gap: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+
+  gap: 40px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.logo {
+  width: 95px;
+  height: 60px;
+}
+
+.re-fo {
+  column-width: 140px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+
+  gap: 30px;
+  background-color: black;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+p {
+  color: white;
+}
+
+.footer-element {
+  display: flex;
+  justify-content: center;
+}
